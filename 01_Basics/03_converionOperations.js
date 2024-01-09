@@ -28,4 +28,31 @@ console.log(boolloggedin)
 
 let somenumber=33
 let stringnumber=String(somenumber);
-console.log(typeof stringNumber);  //
+console.log(typeof stringNumber);  
+
+let a="abc"
+let b= " def"
+console.log(a+b)
+
+let n=1
+let p=-(n)
+console.log(-1)
+
+console.log("1"+2)  //12
+console.log(1+"2")  //12
+console.log("1"+2+2)  //122
+console.log(1+2+"2")   //32  this is done according to ecma script strandards
+
+console.log(true)      //true
+console.log(+true)     //1  (type conversion)
+console.log(+"")       //0
+
+let num1,num2,num3
+num1=num2=num3=2+2
+let gamecounter=100
+gamecounter++;               //++gamecounter  //prefix and postfix increment js mdn 
+console.log(gamecounter);    //101
+
+
+
+
